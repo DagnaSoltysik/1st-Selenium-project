@@ -35,6 +35,7 @@ public class SimpleTest extends BaseTest {
         HeaderTabs headerTabs = header.getheaderTabs();
         headerTabs.moveToElement();
         website.wait(8000);
+        headerTabs.getListWomenSubTabElements();
 
     }
 
